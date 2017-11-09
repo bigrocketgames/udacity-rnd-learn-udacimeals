@@ -58,7 +58,7 @@ function calendar (state = initialCalendarState, action) {
         }
       }
     default:
-      state;
+      return state;
   }
 }
 
